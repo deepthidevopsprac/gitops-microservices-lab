@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com//gitops-microservices-lab.git
+    repoURL: https://github.com/deepthidevopsprac/gitops-microservices-lab.git
     targetRevision: main
     path: services/gateway/base
   destination:
