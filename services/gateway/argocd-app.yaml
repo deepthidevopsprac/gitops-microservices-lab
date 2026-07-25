@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/deepthidevopsprac/gitops-microservices-lab.git
     targetRevision: main
-    path: services/gateway/base
+    path: services/gateway/overlays/prod
   destination:
     server: https://kubernetes.default.svc
     namespace: microservices
